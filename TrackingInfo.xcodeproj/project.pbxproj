@@ -11,6 +11,7 @@
 		044E6F4A2C550A6C00A84428 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E6F492C550A6C00A84428 /* ContentView.swift */; };
 		044E6F4C2C550A6D00A84428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044E6F4B2C550A6D00A84428 /* Assets.xcassets */; };
 		044E6F4F2C550A6D00A84428 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044E6F4E2C550A6D00A84428 /* Preview Assets.xcassets */; };
+		044E6F572C5513C100A84428 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E6F562C5513C100A84428 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		044E6F492C550A6C00A84428 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		044E6F4B2C550A6D00A84428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044E6F4E2C550A6D00A84428 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		044E6F552C550F6400A84428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		044E6F562C5513C100A84428 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		044E6F462C550A6C00A84428 /* TrackingInfo */ = {
 			isa = PBXGroup;
 			children = (
+				044E6F552C550F6400A84428 /* Info.plist */,
 				044E6F472C550A6C00A84428 /* TrackingInfoApp.swift */,
 				044E6F492C550A6C00A84428 /* ContentView.swift */,
+				044E6F562C5513C100A84428 /* LocationManager.swift */,
 				044E6F4B2C550A6D00A84428 /* Assets.xcassets */,
 				044E6F4D2C550A6D00A84428 /* Preview Content */,
 			);
@@ -139,6 +144,7 @@
 			files = (
 				044E6F4A2C550A6C00A84428 /* ContentView.swift in Sources */,
 				044E6F482C550A6C00A84428 /* TrackingInfoApp.swift in Sources */,
+				044E6F572C5513C100A84428 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +281,9 @@
 				DEVELOPMENT_TEAM = 76SR6S8SNL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrackingInfo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "we want display the distance between current location and destination";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +313,9 @@
 				DEVELOPMENT_TEAM = 76SR6S8SNL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrackingInfo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "we want display the distance between current location and destination";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
